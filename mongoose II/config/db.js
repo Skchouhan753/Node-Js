@@ -16,7 +16,11 @@ const userSchema = mongoose.Schema({
     versionKey:false
 })
 
-// step 2 creating the model
+// step 2 creating the model 
+    
+                           // collection name
+                           //      ||
+                           //      \/
 const UserModel = mongoose.model('user',userSchema)
 
 
