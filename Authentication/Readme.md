@@ -1,9 +1,6 @@
 installation
 - npm init -y
-- express
-- mongoose
-- dotenv
-- nodemon
+- npm i express mongoose dotenv nodemon
 
 - npm i --save-dev eslint
 - npx eslint --init
