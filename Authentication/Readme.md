@@ -7,7 +7,7 @@ installation
 
 - npm i --save-dev eslint
 - npx eslint --init
-- ![eslint ans](https://github.com/Skchouhan753/Node-Js/assets/104707355/5e7e8157-5f9b-4798-a767-36475af6ad10)
+- ![eslint config](https://github.com/Skchouhan753/Node-Js/assets/104707355/e5513c60-9d7a-489b-978a-e69142c306c5)
 
 - npm install bcrypt  ==> a library to help you hash password
 
