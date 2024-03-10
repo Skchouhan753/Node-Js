@@ -1,9 +1,10 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
 const jwt = require("jsonwebtoken")
 
 const {blacklist} = require("../logout/blacklist")
 
 const auth = (req,res,next)=>{
-    const token = req.headers.authorization
+	const token = req.headers.authorization
 	if(token){		
 		if(blacklist.includes(token)){
 			res.json({msg:"Please Login!"})
@@ -15,7 +16,7 @@ const auth = (req,res,next)=>{
 			if(decoded){
 				// console.log(decoded)
 				// res.json({msg:"You are Authorized to Movies Data"})
-                next()
+				next()
 			}
 		})
 	}else{
@@ -24,5 +25,5 @@ const auth = (req,res,next)=>{
 }
 
 module.exports = {
-    auth
+	auth
 }
