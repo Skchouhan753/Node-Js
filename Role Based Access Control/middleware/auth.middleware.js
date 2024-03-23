@@ -10,7 +10,7 @@ const auth = (req, res, next) => {
       if (decoded) {
         console.log(decoded);
         const { userID } = decoded;
-        const user = new UserModel.findOe({ _id: userID });
+        const user = new UserModel.findOne({ _id: userID });
         const requiredRole = user.role
         req.role = requiredRole
         next();

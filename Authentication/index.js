@@ -1,3 +1,5 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
+/* eslint-disable indent */
 const express = require("express")
 
 const jwt = require("jsonwebtoken")
@@ -64,7 +66,7 @@ app.get("/series",(req,res)=>{ 												//
 app.get("/movies/auth",auth,(req,res)=>{					//
 	res.json({msg:"Movies Data"})							//
 })															//
-															//
+                                                            //
 app.get("/series/auth",auth,(req,res)=>{					//
 	res.json({msg:"Series Data"})							//
 })															//
